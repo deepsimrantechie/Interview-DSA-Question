@@ -45,7 +45,7 @@ class Solution {
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
         boolean flag = false;
-        while(!stakc.isEmpty()){
+        while(!stack.isEmpty()){
             int levelSize = queue.size();
             List<Integer> level = new ArrayList<>();
             stack<Integer> stack = new Stack<>();
